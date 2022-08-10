@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitaton</title>
+</head>
+<body>
+    <h1>Wedding Invitation Designer</h1><br>
+    
+    <div class="container">
+      <section>
+
+        <h2>Your Details</h2><br>
+
+        <section>
+          <div class="container-temp">
+            <button onclick="changeTemplate('first-template-output')">Template 1</button>
+            <button onclick="changeTemplate('second-template-output')">Template 2</button>
+            <button onclick="changeTemplate('third-template-output')">Template 3</button>
+          </div>  
+        </section>
+
+        <form id="details-form">
+          <div class="form-class">
+          <div>
+            <label for="first-name">Husband name:</label><br>
+            <input
+              type="text"
+              required="required"
+              name="first-name"
+              placeholder="Enter the husband name"
+              id="first-name"
+            />
+          </div>
+
+          <br>
+
+          <div>
+            <label for="second-name">Wife name:</label><br>
+            <input
+              type="text"
+              required="required"
+              name="second-name"
+              placeholder="Enter the wife name"
+              id="second-name"
+            />
+          </div>
+
+          <br>
+
+          <div>
+            <label for="last-name">Family name:</label><br>
+            <input
+              type="text"
+              required="required"
+              name="last-name"
+              placeholder="Enter the family name"
+              id="last-name"
+            />
+          </div>
+
+          <br>
+
+          <div>
+            <label for="date">Date:</label><br>
+            <input
+              type="date"
+              required="required"
+              name="date"
+              placeholder="Enter a wedding date"
+              id="date"
+            />
+          </div>
+
+          <br>
+
+          <div>
+            <label for="Weddind-Location">Wedding location:</label><br>
+            <input
+              type="text"
+              required="required"
+              name="wedding-location"
+              placeholder="Wedding location"
+              id="wedding-location"
+            />
+          </div>
+        </div>
+
+        </form>
+      </section> 
+
+      <aside> 
+        <h2>Preview</h2><br><br>  
+          <section id="template" class="first-template-output">
+            <h3>You are cordially invited to the wedding of</h3>
+            <p>
+              <span id="first-name-output"></span>
+              <span id="second-name-output"></span>
+            </p> 
+            <p id="last-name-output"></p>  
+            <br>
+            <p id="date-output"></p>
+            <p id="wedding-location-output"></p>
+            <br>
+          </section>
+      </aside>  
+    
+    </div>
+      
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

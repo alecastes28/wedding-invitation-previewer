@@ -1,0 +1,128 @@
+body {
+    background-color: #293241;
+}
+
+h1 {
+    width:500px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+}
+
+h2 {
+    width: 500px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-family: cursive
+}
+
+h3 {
+    font-style: italic;
+    font-size: 15px;
+}
+
+p {
+    font-size: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #293241;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: 0;
+    justify-content: space-around;
+    align-items: stretch;
+    font-family: cursive
+}
+
+.container-temp {
+    display: flex;
+    flex-wrap: wrap;;
+    justify-content: space-evenly;
+}
+
+.container-temp button {
+    background-color: #293241;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.form-class {
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+    border-top: 5px solid gray;
+    border-radius: 5px;
+    border-top-style: groove;
+    color: white;
+    padding-top: 35px;
+}
+
+#template {
+    height: 550px;
+    border-block: 1px solid #293241 ;
+    text-align: center;
+    background-position: center;
+    background-size: contain;
+}
+
+#template p:first-child {
+    max-width: 285px;
+    margin: auto;
+}
+
+.first-template-output {
+    padding-top: 100px;
+    background: url('images/bg-template1.jpeg') no-repeat;
+}
+
+.first-template-output h3 {
+    padding-top: 100px;
+    max-width: 200px;
+    margin: auto;
+}
+
+.second-template-output {
+    padding-top: 100px;
+    background: url('images/bg-template2.jpeg') no-repeat;
+    color: rgb(209, 181, 79);
+}
+
+.third-template-output {
+    padding-top: 100px;
+    background: url('images/bg-template3.jpeg') no-repeat;
+    font-family: 'Copperplate, Papyrus, fantasy';
+}
+
+.third-template-output h3 {
+    padding-top: 70px;
+}
+
+#first-name-output, #second-name-output, #last-name-output  {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#last-name-output {
+    margin-top: 5px;
+}
